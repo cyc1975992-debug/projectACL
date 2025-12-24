@@ -87,3 +87,31 @@ conda --version
 conda config --set auto_activate_base false
 conda config --show auto_activate
 ```
+
+### conda로 가상환경 생성 및 활성화
+```bash
+# 아래 2친구는 처음한번만실행
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+
+# 그다음 실행활성화
+conda create -y -n py311 python=3.11
+source activate py311
+```
+
+```bash
+pip install --upgrade pip
+pip install scapy
+
+mkdir ~/projectACL
+cd ~/projectACL
+vi main.py
+sudo ~/miniconda3/envs/py311/bin/python main.py
+sudo python main.py
+```
+
+```bash
+#py311 가상환경에서나가기
+conda deactivate
+```
+
