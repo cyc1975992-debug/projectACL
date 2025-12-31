@@ -149,4 +149,4 @@ with tab5:
         # 사용자 정의 진행 표시줄을 사용하여 requests로 파일 다운로드
         #download_file('http://cabal.g-report.com/data/file/cabal_free/991873018_Oyn6Kr2J_BCF6C1F6_BBC7BBC7.jpg', '수지2.jpg')
         #download_file ('https://i.namu.wiki/i/WLIAt9Xapho0rMPBAti8ZFqShjLRpchZVlk1Bp1p0sjRDbuH6Hhe7Kv7NviXYfKlhg7K0YHNyx2X7S1dcZZuCoNwwFTx0o-tZgeVZ5daUHoDCNo-Ff37lA5NHPPxh2kFmOcloYmYp9dsuQovL_eCgA.webp', '괭이.jpg')
-        download_file ('https://pbs.twimg.com/media/DmOBexcVAAIW7EE?format=jpg&name=small', '시무룩괭이.jpg')
+        download_file ('https://pbs.twimg.com/media/DmOBexcVAAIW7EE?format=jpg&name=small', 'imgs/시무룩괭이.jpg')
